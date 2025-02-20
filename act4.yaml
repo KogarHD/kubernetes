@@ -1,0 +1,13 @@
+app:
+  name: MiAplicacion
+  version: 1.0.0
+  environment: production
+  database:
+    host: localhost
+    port: 5432
+    username: admin
+    password: secret
+  features:
+    logging: true
+    caching: false
+    monitoring: true
